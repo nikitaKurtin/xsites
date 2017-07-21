@@ -12,6 +12,10 @@
 		7D58AFC21F22B3E0006896B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D58AFC01F22B3E0006896B8 /* Main.storyboard */; };
 		7D58AFC41F22B3E0006896B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D58AFC31F22B3E0006896B8 /* Assets.xcassets */; };
 		7D58AFC71F22B3E0006896B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D58AFC51F22B3E0006896B8 /* LaunchScreen.storyboard */; };
+		7D58AFD21F22B517006896B8 /* FinViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D58AFD11F22B517006896B8 /* FinViewCell.swift */; };
+		7D58AFD41F22B532006896B8 /* FinStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D58AFD31F22B532006896B8 /* FinStruct.swift */; };
+		7D58AFD61F22B546006896B8 /* AsyncTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D58AFD51F22B546006896B8 /* AsyncTask.swift */; };
+		7D58AFD81F22B559006896B8 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D58AFD71F22B559006896B8 /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7D58AFC31F22B3E0006896B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D58AFC61F22B3E0006896B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D58AFC81F22B3E0006896B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D58AFD11F22B517006896B8 /* FinViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinViewCell.swift; sourceTree = "<group>"; };
+		7D58AFD31F22B532006896B8 /* FinStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinStruct.swift; sourceTree = "<group>"; };
+		7D58AFD51F22B546006896B8 /* AsyncTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncTask.swift; sourceTree = "<group>"; };
+		7D58AFD71F22B559006896B8 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,9 @@
 		7D58AFBB1F22B3E0006896B8 /* x_site */ = {
 			isa = PBXGroup;
 			children = (
+				7D58AFD01F22B4F7006896B8 /* utils */,
+				7D58AFCF1F22B4EE006896B8 /* models */,
+				7D58AFCE1F22B4E4006896B8 /* views */,
 				7D58AFBC1F22B3E0006896B8 /* AppDelegate.swift */,
 				7D58AFBE1F22B3E0006896B8 /* ViewController.swift */,
 				7D58AFC01F22B3E0006896B8 /* Main.storyboard */,
@@ -62,6 +73,31 @@
 				7D58AFC81F22B3E0006896B8 /* Info.plist */,
 			);
 			path = x_site;
+			sourceTree = "<group>";
+		};
+		7D58AFCE1F22B4E4006896B8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7D58AFD11F22B517006896B8 /* FinViewCell.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		7D58AFCF1F22B4EE006896B8 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7D58AFD31F22B532006896B8 /* FinStruct.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		7D58AFD01F22B4F7006896B8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D58AFD51F22B546006896B8 /* AsyncTask.swift */,
+				7D58AFD71F22B559006896B8 /* Loader.swift */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D58AFD41F22B532006896B8 /* FinStruct.swift in Sources */,
 				7D58AFBF1F22B3E0006896B8 /* ViewController.swift in Sources */,
+				7D58AFD81F22B559006896B8 /* Loader.swift in Sources */,
+				7D58AFD61F22B546006896B8 /* AsyncTask.swift in Sources */,
 				7D58AFBD1F22B3E0006896B8 /* AppDelegate.swift in Sources */,
+				7D58AFD21F22B517006896B8 /* FinViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
